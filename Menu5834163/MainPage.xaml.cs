@@ -11,7 +11,7 @@
 
         private void CambioBtn_Clicked(object sender, EventArgs e)
         {
-            //Navigation.PushAsync(new ());
+            Navigation.PushAsync(new CC());
         }
 
         private void TrianguloBtn_Clicked(object sender, EventArgs e)
