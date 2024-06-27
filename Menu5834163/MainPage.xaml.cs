@@ -16,7 +16,7 @@
 
         private void TrianguloBtn_Clicked(object sender, EventArgs e)
         {
-            //Navigation.PushAsync(new ());
+            Navigation.PushAsync(new Superficie());
         }
 
         private void DinosaurioBtn_Clicked(object sender, EventArgs e)

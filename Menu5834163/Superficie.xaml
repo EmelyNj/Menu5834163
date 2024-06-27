@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Menu5834163.Superficie"
+             Title="Superficie"
+             Shell.NavBarIsVisible="False">
+    <!--<Summary>
+        <Createddate>27/6/2024</createddate>
+        <company>M Programmers</company>
+        <lastmodificationdate>27/6/2024</lastmodificationdate>
+        <lastmodificationdescription>
+            Se añadió la imágen al ejercicio
+        </lastmodificationdescription>
+        <lastmodifierautor>Maynor</lastmodifierautor>
+</Summary>-->
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            
+
+            <Entry Placeholder="Ingrese la base del triángulo"
+                   HorizontalOptions="Center"
+                   WidthRequest="400"
+                   x:Name="eBase"/>
+
+            <Entry Placeholder="Ingrese la altura del triángulo"
+                   HorizontalOptions="Center"
+                   WidthRequest="400"
+                   x:Name="eAltura"/>
+
+            <Entry Placeholder="Área"
+                   HorizontalOptions="Center"
+                   WidthRequest="400"
+                   x:Name="eArea"/>
+
+            <Button
+                    x:Name="CounterBtn"
+                    Text="Calcular área" 
+                    Clicked="CounterBtn_Clicked"
+                    HorizontalOptions="Center"
+                    WidthRequest="350"/>
+
+            <Button
+                    x:Name="Regresar"
+                    Text="Volver" 
+                    Clicked="Regresar_Clicked"
+                    HorizontalOptions="Center"
+                    WidthRequest="350"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
