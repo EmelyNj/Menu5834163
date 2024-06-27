@@ -3,6 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Menu5834163.About"
              Title="About">
+
+    <!--<Summary>
+    <Createddate> 27/06/2024 </Createddate>
+    <Company> M Programmers </Company>
+    <lastmodificationdate> 27/06/2024 </lastmodificationdate>
+    <lastmodificationdescription> La altura del grid para el texto </lastmodificationdescription>
+    <lastmodifierautor> Emely Nájera </lastmodifierautor>
+    </Summary>-->
+    
     <ScrollView>
     <VerticalStackLayout
            Padding="20"
