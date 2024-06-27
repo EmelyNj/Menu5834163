@@ -2,7 +2,18 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Menu5834163.CC"
-             Title="CC">
+             Title="Cambio Cliente">
+    
+    <!--<Summary>
+         <Createddate>27 jun. 2024</createddate>
+        <company>M Programmers </company>
+        <lastmodificationdate>27 jun. 2024</lastmodificationdate>
+        <lastmodificationdescription>
+          Ultima modificación : Se agrego la documentación del archivo xaml.cs
+       </lastmodificationdescription>
+        <lastmodifierautor> Estrella Orellana </lastmodifierautor>
+</Summary>-->
+    
     <ScrollView>
     <VerticalStackLayout Padding="5" Spacing="10">
         <Label 
@@ -23,9 +34,10 @@
 
             <Button  Text="Calcular Cambio a Entregar"
                      HorizontalOptions="Center"
-                     VerticalOptions="Center"/>
+                     VerticalOptions="Center"
+                     Clicked="Button_Clicked"/>
 
-            <Entry Text="Cambio del Cliente"/>
+            <Entry Text="Cambio del Cliente" x:Name="CambioCliente"/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

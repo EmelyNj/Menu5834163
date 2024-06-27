@@ -21,7 +21,7 @@
 
         private void DinosaurioBtn_Clicked(object sender, EventArgs e)
         {
-            //Navigation.PushAsync(new ());
+            Navigation.PushAsync(new Dino());
         }
 
         private void GasolineraBtn_Clicked(object sender, EventArgs e)

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Menu5834163.Dino"
+             Title="Dinosaurio">
+
+    <!--<Summary>
+        <Createddate> 27 jun. 2024</createddate>
+            <company> M Programmers </company>
+            <lastmodificationdate> 27 jun. 2024</lastmodificationdate>
+            <lastmodificationdescription>
+                Ultima modiciación :  Se agrego la documentacion en el archivo xaml.cs 
+            </lastmodificationdescription>
+            <lastmodifierautor> Estrella Orellana </lastmodifierautor>
+    </Summary>-->
+    <ScrollView>
+        <VerticalStackLayout Padding="5" Spacing="10">
+            <Label 
+            Text="EJERCICIO 3 : DINOSAURIO"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+            <Image Source="dino.jpg"
+                    VerticalOptions="Center"
+                     HorizontalOptions="Center" 
+                    WidthRequest="300"/>
+
+            <Entry Placeholder="Nombre del Dinosario" x:Name="NomDino"/>
+            <Entry Placeholder="Digite su peso en kg" x:Name="Peso"/>
+            <Entry Placeholder="Digite su altura en mts" x:Name="Altura"/>
+            <Button Text="Conversion de Datos" HorizontalOptions="Center" VerticalOptions="Center" Clicked="Button_Clicked"/>
+            <Label x:Name="Resultado" HorizontalOptions="Center" VerticalOptions="Center" FontSize="Subtitle"/>
+            <Label x:Name="Dato1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="Subtitle"/>
+            <Label x:Name="Dato2" HorizontalOptions="Center" VerticalOptions="Center" FontSize="Subtitle"/>
+        </VerticalStackLayout>
+        
+    </ScrollView>
+</ContentPage>
