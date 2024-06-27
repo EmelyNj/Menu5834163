@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Menu5834163.MainPage"
+             Title="Home">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="15"
+            Spacing="20"
+            Background="Black">
+
+            <Image
+                Source="menu.png"
+                HeightRequest="200"
+                WidthRequest="400"/>
+
+
+            <!--EJERCICIO 1-->
+            <Label HorizontalOptions="Center" FontFamily="string" FontAttributes="Italic" FontSize="Micro" >
+                <Label.Text>
+                    1.Programa en MAUI, tal que dado el costo de un articulo vendido y la
+cantidad de dinero entregada por el cliente, calcule e imprima el cambio
+que se debe entregar al mismo.
+                </Label.Text>
+            </Label>
+            <Button
+                x:Name="CambioBtn"
+                Text="Ir al ejercicio" 
+                Clicked="CambioBtn_Clicked"
+                BackgroundColor="DarkViolet"
+                HorizontalOptions="Center" FontFamily="string" FontAttributes="Bold" TextColor="White"/>
+
+
+
+            <!--EJERCICIO 2-->
+            <Label HorizontalOptions="Center" FontFamily="string" FontAttributes="Italic" FontSize="Micro">
+                <Label.Text>
+                    2. Programa en MAUI que dadas la base y la altura de un triangulo, 
+ calcule e imprima la superficie.
+                </Label.Text>
+            </Label>
+            <Button
+                x:Name="TrianguloBtn"
+                Text="Ir al ejercicio" 
+                Clicked="TrianguloBtn_Clicked"
+                BackgroundColor="DarkViolet"
+                HorizontalOptions="Center" FontFamily="string" FontAttributes="Bold" TextColor="White"/>
+
+
+
+            <!--EJERCICIO 3-->
+            <Label HorizontalOptions="Center" FontFamily="string" FontAttributes="Italic" FontSize="Micro">
+                <Label.Text>
+                    3.programa en MAUI que dado el nombre de un dinosaurio, 
+ su peso(kg) y su altura(mts), nos calcule su peso expresado 
+ en libras y su altura expresada en centímetros.
+                </Label.Text>
+            </Label>
+            <Button
+                 x:Name="DinosaurioBtn"
+                 Text="Ir al ejercicio" 
+                 Clicked="DinosaurioBtn_Clicked"
+                 BackgroundColor="DarkViolet"
+                 HorizontalOptions="Center" FontFamily="string" FontAttributes="Bold" TextColor="White" />
+
+
+
+            <!--EJERCICIO 4-->
+            <Label HorizontalOptions="Center" FontFamily="string" FontAttributes="Italic" FontSize="Micro">
+                <Label.Text>
+                    4. Programa en MAUI que soluciona el siguiente problema que tienen en una gasolinera. 
+Los surtidores de la misma registran lo que surten en galones, pero el precio de la gasolina esta fijado en litros, el programa debe calcular 
+ lo que hay que cobrarle al cliente.
+                </Label.Text>
+            </Label>
+            <Button
+                 x:Name="GasolineraBtn"
+                 Text="Ir al ejercicio" 
+                 Clicked="GasolineraBtn_Clicked"
+                 BackgroundColor="DarkViolet"
+                 HorizontalOptions="Center" FontFamily="string" FontAttributes="Bold" TextColor="White"/>
+
+
+
+            <!--EJERCICIO 5 "ABOUT US"-->
+            <Label HorizontalOptions="Center" FontFamily="string" FontAttributes="Italic" FontSize="Micro">
+                <Label.Text>
+                    Acerca del equipo M Programmers.
+                </Label.Text>
+            </Label>
+            <Button
+                 x:Name="AboutBtn"
+                 Text="Ir al ejercicio" 
+                 Clicked="AboutBtn_Clicked"
+                 BackgroundColor="DarkViolet"
+                 HorizontalOptions="Center" FontFamily="string" FontAttributes="Bold" TextColor="White"/>
+
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+
+</ContentPage>
