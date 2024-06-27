@@ -17,7 +17,12 @@
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25">
-            
+            <Image
+                Source="triangulo.jepg"
+                HeightRequest="185"
+                WidthRequest="200"
+                Aspect="AspectFit"
+                />  
 
             <Entry Placeholder="Ingrese la base del triángulo"
                    HorizontalOptions="Center"

@@ -26,7 +26,7 @@
 
         private void GasolineraBtn_Clicked(object sender, EventArgs e)
         {
-            //Navigation.PushAsync(new ());
+            Navigation.PushAsync(new Gasolinera());
         }
 
         private void AboutBtn_Clicked(object sender, EventArgs e)
