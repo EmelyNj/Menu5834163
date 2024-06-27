@@ -77,9 +77,6 @@
 		<MauiXaml Update="Superficie.xaml">
 			<Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
-	</ItemGroup>
-
-	<ItemGroup>
 	  <MauiXaml Update="CC.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

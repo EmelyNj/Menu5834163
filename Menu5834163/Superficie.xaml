@@ -18,7 +18,7 @@
             Padding="30,0"
             Spacing="25">
             <Image
-                Source="triangulo.jepg"
+                Source="triangulo.jpeg"
                 HeightRequest="185"
                 WidthRequest="200"
                 Aspect="AspectFit"
