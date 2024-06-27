@@ -3,10 +3,55 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Menu5834163.About"
              Title="About">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+
+    <!--<Summary>
+    <Createddate> 27/06/2024 </Createddate>
+    <Company> M Programmers </Company>
+    <lastmodificationdate> 27/06/2024 </lastmodificationdate>
+    <lastmodificationdescription> La altura del grid para el texto </lastmodificationdescription>
+    <lastmodifierautor> Emely Nájera </lastmodifierautor>
+    </Summary>-->
+    
+    <ScrollView>
+    <VerticalStackLayout
+           Padding="20"
+           Spacing="20"
+           Background="Black">
+        
+        <Image
+    Source="about.png"
+    HeightRequest="200"
+    WidthRequest="400"/>
+        
+        
+
+        <Grid RowSpacing="6" ColumnSpacing="6" Padding="6">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="210"></RowDefinition>
+                <RowDefinition Height="100"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Image Source="mlogo.png" Grid.Row="0" Grid.Column="0"
+                   HeightRequest="200"
+                   WidthRequest="200"></Image>
+            <Label Grid.Row="0" Grid.Column="1"
+                   HorizontalOptions="Center" FontFamily="string" FontAttributes="Italic" FontSize="Micro">
+                <Label.Text>
+                    Nosotros somos M Programmers, un equipo de programadores en busca de superarnos a nosotros mismo para hacer realidad miles de proyectos en mente, donde ponemos en práctica el compañerismo, el respeto, la sinceridad y más.
+El trabajo estuvo divido de la siguiente forma:
+Estrella Orellana - Ejercicios 1 (Cambio al Cliente) y 3 (Dinosaurio);         
+Maynor Orellana – Ejercicios 2 (Superficie de un triángulo) y 4 (Problema en una gasolinera);                  
+Emely Nájera - Menú y About Us.
+
+                </Label.Text></Label>
+
+
+        </Grid>
+
     </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

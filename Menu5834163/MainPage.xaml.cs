@@ -31,7 +31,7 @@
 
         private void AboutBtn_Clicked(object sender, EventArgs e)
         {
-            //Navigation.PushAsync(new ());
+            Navigation.PushAsync(new About());
         }
     }
 
